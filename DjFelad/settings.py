@@ -78,10 +78,16 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'djfelad',
-        'USER': 'jeneizs',
+        'USER': 'vargad',
         'PASSWORD': 'psoesrtg',
         'HOST': '167.86.93.95',
         'PORT': '5435',
+        'OPTIONS': {
+            'sslmode': 'require',
+            'sslcert': 'ssl/server.crt',
+            'sslkey': 'ssl/server.key',
+            'client_encoding': 'UTF-8',
+        },
     }
 }
 
