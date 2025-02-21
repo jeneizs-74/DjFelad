@@ -77,11 +77,11 @@ WSGI_APPLICATION = 'DjFelad.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'felad',
-        'USER': 'postgres',
+        'NAME': 'djfelad',
+        'USER': 'jeneizs',
         'PASSWORD': 'psoesrtg',
-        'HOST': 'localhost',
-        'PORT': '5433',
+        'HOST': '167.86.93.95',
+        'PORT': '5435',
     }
 }
 
